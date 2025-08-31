@@ -1,0 +1,1345 @@
+.main {
+  display: grid;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  align-content: flex-start;
+  justify-items: center;
+  justify-content: flex-start;
+  align-items: center;
+  grid-row-gap: 20px;
+  background: #ffffff;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  min-width: 0;
+  min-height: 0;
+  grid-template-columns:
+    var(--plsmc-viewport-gap) 1fr minmax(0, var(--plsmc-wide-chunk))
+    min(
+      var(--plsmc-standard-width),
+      calc(100% - var(--plsmc-viewport-gap) - var(--plsmc-viewport-gap))
+    )
+    minmax(0, var(--plsmc-wide-chunk)) 1fr var(--plsmc-viewport-gap);
+}
+.main > * {
+  grid-column: 4;
+}
+.embedHtml__psFum:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+}
+.freeBox__sVgsB {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-self: flex-start;
+  overflow: auto;
+  grid-column-start: 3 !important;
+  grid-column-end: -3 !important;
+  padding: 8px;
+}
+.блоки {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 620px;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  row-gap: 14px;
+  overflow: auto;
+  flex-shrink: 0;
+  padding: 8px;
+}
+.блокдата {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  background: #f7f5f5;
+  min-width: 0;
+  border-radius: 18px;
+  padding: 8px;
+}
+.freeBox__kv00 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  column-gap: 40px;
+  min-width: 0;
+  padding: 8px 16px;
+}
+.дата {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  color: #171717;
+}
+.freeBox__zuZ3A {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  column-gap: 10px;
+  min-width: 0;
+  padding: 8px 16px;
+}
+.день:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+}
+.text__uRLT {
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+.svg___2EBm {
+  position: relative;
+  height: 1em;
+}
+.svg___6UmdO {
+  position: relative;
+  height: 1em;
+}
+.text__pAnDo {
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+}
+.месяц:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+}
+.text__w1UEk {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  padding-bottom: 5px;
+  padding-top: 0px;
+}
+.год:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+}
+.text__cff2Y {
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+.svg__jNfCz {
+  position: relative;
+  height: 1em;
+}
+.svg__z4Rz {
+  position: relative;
+  height: 1em;
+}
+.text___8Jc4W {
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+}
+.блок01Offer5 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  background: #f7f6f5;
+  min-width: 0;
+  border-radius: 18px;
+  padding: 8px;
+}
+.freeBox__j3K2C {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  column-gap: 40px;
+  min-width: 0;
+  padding: 8px 16px;
+}
+.блок01Offer {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  color: #171717;
+}
+.showOffer:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  width: auto;
+}
+.text__eiByy {
+  font-family: "Manrope", sans-serif;
+}
+.offer {
+  display: grid;
+  align-content: flex-start;
+  justify-items: center;
+  width: 100%;
+  grid-row-gap: 10px;
+  position: relative;
+  background: none;
+  min-width: 0;
+  grid-template-columns:
+    var(--plsmc-viewport-gap) 1fr minmax(0, var(--plsmc-wide-chunk))
+    min(
+      var(--plsmc-standard-width),
+      calc(100% - var(--plsmc-viewport-gap) - var(--plsmc-viewport-gap))
+    )
+    minmax(0, var(--plsmc-wide-chunk)) 1fr var(--plsmc-viewport-gap);
+  padding: 10px 0px;
+}
+.offer > * {
+  grid-column: 4;
+}
+.freeBox__djrHu {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  row-gap: 5px;
+  min-width: 0;
+  padding: 8px 0px;
+}
+.freeBox__f5YMe {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  column-gap: 20px;
+  min-width: 0;
+  padding: 0px;
+}
+.блок01Offer2 {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #535353;
+}
+.switchпозиция:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  width: auto;
+}
+.позиция:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+}
+.text__lHlbq {
+  font-family: "Manrope", sans-serif;
+  padding-bottom: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #535353;
+}
+.svg__aNx4O {
+  position: relative;
+  height: 1em;
+}
+.svg__ecX6T {
+  position: relative;
+  height: 1em;
+}
+.text__c6P0O {
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+}
+.имяфамилия:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+}
+.text__xtgFv {
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 5px;
+  padding-top: 0px;
+}
+.svg___9LRm {
+  position: relative;
+  height: 1em;
+}
+.svg___6M3VR {
+  position: relative;
+  height: 1em;
+}
+.text__mD7Aw {
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+}
+.freeBox__t2OgH {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  row-gap: 5px;
+  min-width: 0;
+  padding: 0px;
+}
+.freeBox__zVspU {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  column-gap: 20px;
+  min-width: 0;
+  padding: 0px;
+}
+.блок01Offer4 {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #535353;
+}
+.switchотдел:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  width: auto;
+}
+.отдел:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+}
+.text___0XnBa {
+  font-family: "Manrope", sans-serif;
+  padding-bottom: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.svg__naUix {
+  position: relative;
+  height: 1em;
+}
+.svg__s5Pu6 {
+  position: relative;
+  height: 1em;
+}
+.text__gSz3U {
+  color: #535353;
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+}
+.freeBox__nFiRb {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  row-gap: 5px;
+  min-width: 0;
+  padding: 8px 0px;
+}
+.freeBox__zk136 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  column-gap: 20px;
+  min-width: 0;
+  padding: 0px;
+}
+.блок01Offer3 {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #535353;
+}
+.switchнаниматель:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  width: auto;
+}
+.наниматель:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+}
+.text__d9Ga {
+  font-family: "Manrope", sans-serif;
+  padding-bottom: 5px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.svg___7JR0S {
+  position: relative;
+  height: 1em;
+}
+.svg__d3Da3 {
+  position: relative;
+  height: 1em;
+}
+.text__dqUt {
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+}
+.telegram:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+}
+.text__j9RjC {
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+.svg___0Jp3U {
+  position: relative;
+  height: 1em;
+}
+.svg__z7IJr {
+  position: relative;
+  height: 1em;
+}
+.text__ySjQb {
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+}
+.блок02Info {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  background: #f5f7f5;
+  min-width: 0;
+  border-radius: 18px;
+  padding: 8px;
+}
+.freeBox___6Id4S {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  column-gap: 40px;
+  min-width: 0;
+  padding: 8px 16px;
+}
+.блок01Info {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  padding-right: 0px;
+  color: #171717;
+}
+.showInfo:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  width: auto;
+}
+.offer2 {
+  display: grid;
+  align-content: flex-start;
+  justify-items: center;
+  width: 100%;
+  grid-row-gap: 10px;
+  position: relative;
+  background: none;
+  min-width: 0;
+  grid-template-columns:
+    var(--plsmc-viewport-gap) 1fr minmax(0, var(--plsmc-wide-chunk))
+    min(
+      var(--plsmc-standard-width),
+      calc(100% - var(--plsmc-viewport-gap) - var(--plsmc-viewport-gap))
+    )
+    minmax(0, var(--plsmc-wide-chunk)) 1fr var(--plsmc-viewport-gap);
+  padding: 10px 0px;
+}
+.offer2 > * {
+  grid-column: 4;
+}
+.freeBox__oCocs {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  row-gap: 5px;
+  min-width: 0;
+  padding: 8px 0px;
+}
+.freeBox__lZveP {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  column-gap: 20px;
+  min-width: 0;
+  padding: 0px;
+}
+.блок01Offer6 {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #535353;
+  padding-right: 0px;
+}
+.switchместоработы:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  width: auto;
+}
+.локация:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+}
+.text__aM7R {
+  font-family: "Manrope", sans-serif;
+  padding-bottom: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.svg___6KEdY {
+  position: relative;
+  height: 1em;
+}
+.svg__wH0Xs {
+  position: relative;
+  height: 1em;
+}
+.text__puk2V {
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+}
+.freeBox__nPu6O {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  row-gap: 5px;
+  min-width: 0;
+  padding: 8px 0px;
+}
+.freeBox__ghUFj {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  column-gap: 20px;
+  min-width: 0;
+  padding: 0px;
+}
+.блок01Offer7 {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #535353;
+  padding-right: 0px;
+}
+.switchис:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  width: auto;
+}
+.испсрок:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+}
+.text__y3Bo {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  padding-bottom: 5px;
+  padding-right: 0px;
+}
+.svg__y6Kka {
+  position: relative;
+  height: 1em;
+}
+.svg__hjtbc {
+  position: relative;
+  height: 1em;
+}
+.freeBox__yFf6J {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  column-gap: 20px;
+  min-width: 0;
+  padding: 0px;
+}
+.блок01Offer8 {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #535353;
+  padding-right: 0px;
+}
+.switchграфик:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  width: auto;
+}
+.график:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+}
+.text__pvExo {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+.svg__ql8U9 {
+  position: relative;
+  height: 1em;
+}
+.svg__tkY2I {
+  position: relative;
+  height: 1em;
+}
+.freeBox__bLtMm {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  column-gap: 20px;
+  min-width: 0;
+  padding: 0px;
+}
+.блок01Offer9 {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #535353;
+  padding-right: 0px;
+}
+.switchрежим:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  width: auto;
+}
+.время:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+}
+.text__dUusb {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  padding-bottom: 5px;
+  padding-top: 0px;
+}
+.svg___9L9Oq {
+  position: relative;
+  height: 1em;
+}
+.svg__ak2UP {
+  position: relative;
+  height: 1em;
+}
+.блок04Bonuses2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  background: #f5f5f7;
+  min-width: 0;
+  border-radius: 18px;
+  padding: 8px;
+}
+.freeBox__c7L4B {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  column-gap: 40px;
+  min-width: 0;
+  padding: 8px 16px;
+}
+.блок04Bonuses {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  padding-right: 0px;
+  color: #171717;
+}
+.showBonuses:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  width: auto;
+}
+.offer4 {
+  display: grid;
+  align-content: flex-start;
+  justify-items: center;
+  width: 100%;
+  grid-row-gap: 10px;
+  position: relative;
+  background: none;
+  min-width: 0;
+  grid-template-columns:
+    var(--plsmc-viewport-gap) 1fr minmax(0, var(--plsmc-wide-chunk))
+    min(
+      var(--plsmc-standard-width),
+      calc(100% - var(--plsmc-viewport-gap) - var(--plsmc-viewport-gap))
+    )
+    minmax(0, var(--plsmc-wide-chunk)) 1fr var(--plsmc-viewport-gap);
+  padding: 10px 0px;
+}
+.offer4 > * {
+  grid-column: 4;
+}
+.freeBox__uw6XV {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  row-gap: 5px;
+  min-width: 0;
+  padding: 8px 0px;
+}
+.freeBox__qA7S {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  column-gap: 20px;
+  min-width: 0;
+  padding: 0px;
+}
+.блок01Offer10 {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #535353;
+  padding-right: 0px;
+}
+.switchRelocation:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  width: auto;
+}
+.relocation:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+}
+.text__urQuZ {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  padding-bottom: 5px;
+  padding-right: 0px;
+}
+.svg__t7Xpl {
+  position: relative;
+  height: 1em;
+}
+.svg__sbVqx {
+  position: relative;
+  height: 1em;
+}
+.freeBox__hsC3F {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  row-gap: 5px;
+  min-width: 0;
+  padding: 8px 0px;
+}
+.freeBox__bkxGe {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  column-gap: 20px;
+  min-width: 0;
+  padding: 0px;
+}
+.блок01Offer15 {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #535353;
+  padding-right: 0px;
+}
+.switchCorporate:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  width: auto;
+}
+.corporate:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+}
+.text__lcDM {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  padding-bottom: 5px;
+  padding-right: 0px;
+}
+.svg__msqsi {
+  position: relative;
+  height: 1em;
+}
+.svg__xlV99 {
+  position: relative;
+  height: 1em;
+}
+.freeBox__dcA6I {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  row-gap: 5px;
+  min-width: 0;
+  padding: 8px 0px;
+}
+.freeBox__hpZ8 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  column-gap: 20px;
+  min-width: 0;
+  padding: 0px;
+}
+.блок01Offer11 {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #535353;
+  padding-right: 0px;
+}
+.switchобучение:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  width: auto;
+}
+.education:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+}
+.text__qjToX {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  padding-bottom: 5px;
+  padding-right: 0px;
+}
+.svg__gSlHb {
+  position: relative;
+  height: 1em;
+}
+.svg___0MaZl {
+  position: relative;
+  height: 1em;
+}
+.freeBox__r9JfK {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  row-gap: 5px;
+  min-width: 0;
+  padding: 8px 0px;
+}
+.freeBox__zpQsw {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  column-gap: 20px;
+  min-width: 0;
+  padding: 0px;
+}
+.блок01Offer12 {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #535353;
+  padding-right: 0px;
+}
+.switchспорт:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  width: auto;
+}
+.sportsActivities:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+}
+.text__jPuzk {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  padding-bottom: 5px;
+  padding-right: 0px;
+}
+.svg__dvX7N {
+  position: relative;
+  height: 1em;
+}
+.svg__uNjR0 {
+  position: relative;
+  height: 1em;
+}
+.freeBox___0AOkM {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  row-gap: 5px;
+  min-width: 0;
+  padding: 8px 0px;
+}
+.freeBox__eY3Qg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  column-gap: 20px;
+  min-width: 0;
+  padding: 0px;
+}
+.блок01Offer13 {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #535353;
+  padding-right: 0px;
+}
+.switchотпуск:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  width: auto;
+}
+.vacation:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+}
+.text__rIxod {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  padding-bottom: 5px;
+  padding-right: 0px;
+}
+.svg__yjEz {
+  position: relative;
+  height: 1em;
+}
+.svg__jbdUh {
+  position: relative;
+  height: 1em;
+}
+.freeBox___49VXw {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  row-gap: 5px;
+  min-width: 0;
+  padding: 8px 0px;
+}
+.freeBox__jh4Ec {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  column-gap: 20px;
+  min-width: 0;
+  padding: 0px;
+}
+.блок01Offer14 {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #535353;
+  padding-right: 0px;
+}
+.switchдмс:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  width: auto;
+}
+.dms:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+}
+.text___8Hbwe {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  padding-bottom: 5px;
+  padding-right: 0px;
+}
+.svg__bvcxZ {
+  position: relative;
+  height: 1em;
+}
+.svg__g3T53 {
+  position: relative;
+  height: 1em;
+}
+.блок05Salary2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  background: #f7f5f7;
+  min-width: 0;
+  border-radius: 18px;
+  padding: 8px;
+}
+.freeBox__iIu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  column-gap: 40px;
+  min-width: 0;
+  padding: 8px 16px;
+}
+.блок05Salary {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  padding-right: 0px;
+  color: #171717;
+}
+.showSalary:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  width: auto;
+}
+.offer3 {
+  display: grid;
+  align-content: flex-start;
+  justify-items: center;
+  width: 100%;
+  grid-row-gap: 10px;
+  position: relative;
+  background: none;
+  min-width: 0;
+  grid-template-columns:
+    var(--plsmc-viewport-gap) 1fr minmax(0, var(--plsmc-wide-chunk))
+    min(
+      var(--plsmc-standard-width),
+      calc(100% - var(--plsmc-viewport-gap) - var(--plsmc-viewport-gap))
+    )
+    minmax(0, var(--plsmc-wide-chunk)) 1fr var(--plsmc-viewport-gap);
+  padding: 10px 0px;
+}
+.offer3 > * {
+  grid-column: 4;
+}
+.зарплата:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+}
+.text__i0Og9 {
+  height: auto;
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+.svg__no5U {
+  position: relative;
+  height: 1em;
+}
+.svg__rDKuA {
+  position: relative;
+  height: 1em;
+}
+.freeBox__xvyrV {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  column-gap: 20px;
+  min-width: 0;
+  padding: 0px;
+}
+.блок01Offer16 {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #535353;
+  padding-right: 0px;
+}
+.switchзпис:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  width: auto;
+}
+.зпис:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+}
+.text__oQsW {
+  height: auto;
+  font-family: "Manrope", sans-serif;
+  padding-bottom: 5px;
+}
+.svg__yQoIw {
+  position: relative;
+  height: 1em;
+}
+.svg__kUtOa {
+  position: relative;
+  height: 1em;
+}
+.валюта:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+}
+.text___8WbiV {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  padding-bottom: 5px;
+  padding-top: 0px;
+}
+.buttons {
+  flex-direction: row;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  column-gap: 20px;
+  min-width: 0;
+  display: none;
+  padding: 8px 50px;
+}
+.button:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  width: 100%;
+  height: 50px;
+  min-width: 0;
+}
+.svg__q57Ml {
+  position: relative;
+  height: 1em;
+}
+.text__nG9J {
+  white-space: pre;
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  color: var(--token-EI8XSdWJROjx);
+}
+.svg__dAeZ {
+  position: relative;
+  height: 1em;
+}
+.file {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 620px;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: auto;
+  flex-shrink: 0;
+  padding: 8px;
+}
+.freeBox__qi8OT {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  row-gap: 14px;
+  overflow: auto;
+  min-width: 0;
+  padding: 8px;
+}
+.mainComponentV1:global(.__wab_instance) {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+.embedHtml__ftn9G:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+  width: 504px;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Manrope", sans-serif;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 0px;
+}
+.embedHtml__bcdf6:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+}

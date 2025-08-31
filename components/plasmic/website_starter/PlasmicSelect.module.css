@@ -1,0 +1,96 @@
+.ariaSelect:global(.__wab_instance) {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  row-gap: var(--token-7WzZznU0oHuZ);
+  min-width: 0;
+}
+.ariaSelect[data-disabled]:global(.__wab_instance) {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+.label:global(.__wab_instance):global(.__wab_instance) {
+  margin: 0px 4px;
+}
+.slotTargetLabel {
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+}
+.ariaButton:global(.__wab_instance) {
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 100%;
+  box-shadow: inset 0px 0px 0px 1px var(--token-88tCMZH3lOIP);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  outline-style: none;
+  background: var(--token-vTnVl15gQePC);
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  height: 39px;
+  min-width: 0;
+  border-radius: 14px;
+  padding: 0px 0px 0px 4px;
+  border: 1px none #343434;
+}
+.ariaSelect[data-focus-visible] .ariaButton:global(.__wab_instance) {
+  outline-style: solid;
+  outline-width: var(--token-AzG29QqYWqT8);
+  outline-offset: 1px;
+  outline-color: var(--token-EI8XSdWJROjx);
+}
+.ariaSelectedValue:global(.__wab_instance) {
+  font-size: 14px;
+  line-height: var(--token-7XWz8tNTWt9Y);
+  padding-top: var(--token-LgPs4s71_o7g);
+  padding-bottom: var(--token-LgPs4s71_o7g);
+  padding-left: var(--token-pNI9iLRXA6YZ);
+  font-family: "Manrope", sans-serif;
+  font-weight: 300;
+}
+.text {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  color: var(--token-Yg2PtwPoSkXg);
+  font-family: "Manrope", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  min-width: 0;
+}
+.freeBox {
+  display: flex;
+  position: relative;
+  width: var(--token-H5tPvGJiKC2D);
+  height: var(--token-H5tPvGJiKC2D);
+  justify-content: center;
+  align-items: center;
+}
+.svg {
+  width: var(--token-5ZfPFWcX3WyF);
+  height: var(--token-5ZfPFWcX3WyF);
+  flex-shrink: 0;
+}
+.description:global(.__wab_instance):global(.__wab_instance) {
+  position: relative;
+}
+.menuPopover:global(.__wab_instance):global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.menuSection__u2Mbq:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+}
+.text___4Wv45 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+}

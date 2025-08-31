@@ -1,0 +1,87 @@
+.ariaSwitch:global(.__wab_instance) {
+  object-fit: cover;
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+  color: var(--token-Xz0rvMAnHnxf);
+  font-family: var(--token-th9QJEdXzf11);
+  font-size: var(--token-nj72HAJrv2bo);
+  line-height: var(--token-7XWz8tNTWt9Y);
+  width: 100%;
+  flex-direction: column;
+  row-gap: var(--token-7WzZznU0oHuZ);
+  min-width: 0;
+}
+.ariaSwitch[data-selected]:global(.__wab_instance) {
+  padding-left: 0px;
+}
+.ariaSwitch[data-disabled]:global(.__wab_instance) {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.5;
+}
+.ariaSwitch[data-readonly]:global(.__wab_instance) {
+  pointer-events: none;
+  cursor: default;
+}
+.ariaSwitch[data-focus-visible]:global(.__wab_instance) {
+  padding-top: 0px;
+}
+.freeBox {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  column-gap: var(--token-yoZ5UTEtbQiD);
+}
+.switchIndicator {
+  height: auto;
+  width: var(--token-H5tPvGJiKC2D);
+  display: flex;
+  background: var(--token-aF3Y7nCC4_9P);
+  cursor: pointer;
+  justify-content: flex-start;
+  align-items: flex-start;
+  pointer-events: auto;
+  flex-shrink: 0;
+  border-radius: 99px;
+  padding: var(--token-AzG29QqYWqT8);
+}
+.ariaSwitch[data-selected] .switchIndicator {
+  background: var(--token-EI8XSdWJROjx);
+}
+.ariaSwitch[data-focus-visible] .switchIndicator {
+  outline-width: 2px;
+  outline-style: solid;
+  outline-color: var(--token-UC1KcYr4cC4q);
+  outline-offset: 1px;
+}
+.ariaSwitch[data-disabled] .switchIndicator {
+  cursor: not-allowed;
+}
+.thumb {
+  display: flex;
+  position: relative;
+  width: var(--token-5ZfPFWcX3WyF);
+  background: var(--token-vTnVl15gQePC);
+  height: var(--token-5ZfPFWcX3WyF);
+  flex-direction: row;
+  transition-property: all;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-out;
+  transform: translateX(0px) translateY(0px) translateZ(0px);
+  box-shadow: 0px 0px 3px 0px #00000040;
+  flex-shrink: 0;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.1s;
+  border-radius: 99px;
+}
+.ariaSwitch[data-selected] .thumb {
+  transform: translateX(12px) translateY(0px) translateZ(0px);
+}
+.description:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}

@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ffffff;
+    --foreground: #171717;
+  }
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Manrope', sans-serif !important;
+  color-scheme: light !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Принудительно белый фон для всех input полей с border-radius 14px */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="tel"],
+input[type="url"],
+input[type="search"],
+input[type="password"],
+textarea,
+select {
+  background-color: white !important;
+  color: black !important;
+  border: 1px solid #ccc !important;
+  border-radius: 14px !important;
+  padding: 12px 16px !important;
+  font-family: 'Manrope', sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+}
+
+/* Фокус состояние */
+input:focus,
+textarea:focus,
+select:focus {
+  background-color: white !important;
+  color: black !important;
+  border-color: #007bff !important;
+  border-radius: 14px !important;
+  outline: none !important;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.15) !important;
+}
+
+/* Плейсхолдеры */
+input::placeholder,
+textarea::placeholder {
+  color: #6c757d !important;
+  opacity: 1 !important;
+  font-family: 'Manrope', sans-serif !important;
+}
+
+/* Отключение темной темы для конкретных элементов */
+.plasmic-form input,
+.plasmic-form textarea,
+.plasmic-form select,
+[data-plasmic-name] input,
+[data-plasmic-name] textarea,
+[data-plasmic-name] select {
+  color-scheme: light !important;
+  background-color: white !important;
+  color: black !important;
+  border-radius: 14px !important;
+  font-family: 'Manrope', sans-serif !important;
+}
+
+/* Исправление для всех элементов внутри FormUi */
+[data-plasmic-name="FormUi"] input,
+[data-plasmic-name="FormUi"] textarea,
+[data-plasmic-name="FormUi"] select {
+  background-color: white !important;
+  color: black !important;
+  border: 1px solid #ddd !important;
+  border-radius: 14px !important;
+  font-family: 'Manrope', sans-serif !important;
+}
+
+/* Специально для полей даты */
+input[type="date"],
+input[type="month"],
+input[type="year"] {
+  background-color: white !important;
+  color: black !important;
+  color-scheme: light !important;
+  border-radius: 14px !important;
+  font-family: 'Manrope', sans-serif !important;
+}
+
+/* Все тексты и лейблы */
+label,
+span,
+div,
+p,
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Manrope', sans-serif !important;
+}
+
+/* Кнопки */
+button {
+  font-family: 'Manrope', sans-serif !important;
+  border-radius: 14px !important;
+}
+
+/* Переключатели (toggles) */
+.toggle,
+[role="switch"] {
+  border-radius: 14px !important;
+}
+
+/* Дропдауны */
+select {
+  border-radius: 14px !important;
+  font-family: 'Manrope', sans-serif !important;
+}
