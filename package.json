@@ -11,6 +11,8 @@
   "dependencies": {
     "@faker-js/faker": "^9.9.0",
     "@plasmicapp/cli": "^0.1.342",
+    "@plasmicapp/host": "^1.0.224",
+    "@plasmicapp/loader-react": "^1.0.396",
     "@plasmicapp/react-web": "^0.2.399",
     "@plasmicpkgs/plasmic-basic-components": "^0.0.251",
     "@plasmicpkgs/react-aria": "^0.0.150",
